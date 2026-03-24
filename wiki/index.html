@@ -1,61 +1,17 @@
-wiki/index.html
+index.html
+style.css
 <!DOCTYPE html>
 <html lang="cs">
 <head>
   <meta charset="UTF-8">
-  <title>MHD Game Wiki</title>
-  <style>
-    body {
-      font-family: Arial;
-      background: #0f172a;
-      color: white;
-      margin: 0;
-    }
-
-    header {
-      background: #1e293b;
-      padding: 20px;
-      text-align: center;
-      font-size: 24px;
-    }
-
-    nav {
-      background: #020617;
-      padding: 10px;
-      display: flex;
-      gap: 10px;
-      justify-content: center;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      background: #334155;
-      padding: 8px 15px;
-      border-radius: 8px;
-    }
-
-    nav a:hover {
-      background: #475569;
-    }
-
-    section {
-      padding: 20px;
-    }
-
-    .card {
-      background: #1e293b;
-      padding: 15px;
-      margin-bottom: 10px;
-      border-radius: 10px;
-    }
-  </style>
+  <title>MHD Wiki</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-  🚍 MHD Game Wiki
+  📚 MHD Wiki
 </header>
 
 <nav>
@@ -68,7 +24,7 @@ wiki/index.html
 <section id="about">
   <div class="card">
     <h2>🧾 O hře</h2>
-    <p>Naše Roblox hra je zaměřená na MHD roleplay.</p>
+    <p>Tato Roblox hra je zaměřená na MHD roleplay.</p>
   </div>
 </section>
 
@@ -76,9 +32,9 @@ wiki/index.html
   <div class="card">
     <h2>👮 Role</h2>
     <ul>
-      <li>Řidič</li>
-      <li>Dispečer</li>
-      <li>Revizor</li>
+      <li>Řidič – řídí autobusy</li>
+      <li>Dispečer – řídí provoz</li>
+      <li>Revizor – kontroluje jízdenky</li>
     </ul>
   </div>
 </section>
@@ -89,6 +45,7 @@ wiki/index.html
     <ul>
       <li>Zákaz spamu</li>
       <li>Respektuj ostatní</li>
+      <li>Dodržuj roleplay</li>
     </ul>
   </div>
 </section>
@@ -103,5 +60,59 @@ wiki/index.html
   </div>
 </section>
 
+<footer>
+  © 2026 MHD Projekt
+</footer>
+
 </body>
 </html>
+body {
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+  margin: 0;
+}
+
+header {
+  background: #1e293b;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+nav {
+  background: #020617;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  background: #334155;
+  padding: 8px 15px;
+  border-radius: 8px;
+}
+
+nav a:hover {
+  background: #475569;
+}
+
+section {
+  padding: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #020617;
+}
